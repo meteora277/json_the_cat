@@ -23,4 +23,4 @@ const breedFetcher = function (breed) {
   );
 };
 
-breedFetcher(args);
+module.exports = breedFetcher;
